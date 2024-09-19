@@ -1,0 +1,5 @@
+.venv
+/data/data.txt
+/data/wiki.test.txt
+/data/wiki.train.txt
+/data/wiki.valid.txt
