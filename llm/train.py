@@ -1,5 +1,3 @@
-# Copyright © 2023 Apple Inc.
-
 import io
 import itertools
 import os
@@ -42,7 +40,7 @@ def _load(save_dir, filenames):
 
 # Updated main script to load the local dataset
 # Specify the directory containing the local 'train.txt', 'valid.txt', 'test.txt'
-data_directory = "/mlx/data"  # Replace with the path to your local data
+data_directory = "/Users/williamzebrowski/Library/Mobile Documents/com~apple~CloudDocs/mlx/data"  # Replace with the path to your local data
 
 # Load the dataset from local files
 vocab, train, valid, test = load_local_dataset(data_directory)
@@ -68,7 +66,7 @@ num_blocks = 12  # Number of Transformer blocks
 dim = 1024  # Dimensionality of embeddings and hidden layers
 num_heads = 16  # Number of heads used for multi-head attention
 checkpoint = True  # Perform gradient checkpointing
-batch_size = 2  # Minibatch size
+batch_size = 8  # Minibatch size
 num_iters = 100000  # Iterations to train for
 learning_rate = 3e-4  # AdamW learning rate
 weight_decay = 1e-5  # Set the weight decay
