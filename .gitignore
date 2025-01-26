@@ -3,3 +3,4 @@
 /data/wiki.test.txt
 /data/wiki.train.txt
 /data/wiki.valid.txt
+.env
