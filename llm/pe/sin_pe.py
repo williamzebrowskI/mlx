@@ -4,7 +4,7 @@ from mlx.core import sin, cos
 
 
 class PositionalEmbeddings:
-        def __init__(self, input_seq: list):
+        def __init__(self, l, d):
 
             pass
 
